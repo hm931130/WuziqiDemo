@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context="com.hm.wuziqidemo.MainActivity">
+
+    <com.hm.view.WuziqiView
+        android:id="@+id/id_wuziqi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:wuziqi_view_blackpiece="@mipmap/stone_b1"
+        app:wuziqi_view_maxconnect="5"
+        app:wuziqi_view_maxsquare="10"
+        app:wuziqi_view_whitefirst="true"
+        app:wuziqi_view_whitepiece="@mipmap/stone_w2" />
+
+
+</RelativeLayout>

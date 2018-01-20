@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WuziqiView">
+        <attr name="wuziqi_view_whitepiece" format="reference|color" />
+        <attr name="wuziqi_view_blackpiece" format="reference|color" />
+        <attr name="wuziqi_view_maxsquare" format="integer" />
+        <attr name="wuziqi_view_maxconnect" format="integer" />
+        <attr name="wuziqi_view_whitefirst" format="boolean" />
+    </declare-styleable>
+
+</resources>
